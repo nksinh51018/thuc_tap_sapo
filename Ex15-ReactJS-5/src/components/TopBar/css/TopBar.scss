@@ -1,0 +1,15 @@
+.topbar {
+    color: #351202;
+    font-weight: bold;
+    .topbar-right {
+      float: right;
+      font-weight: normal;
+      a {
+        text-decoration: none;
+        color: #351202;
+        &:hover {
+          color: #351202;
+        }
+      }
+    }
+  }

@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "0aec4d43-a0a4-437b-902b-6a4410fb96ac",
+		"name": "Sql injecttion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/as%27%20or%20%271%27=%271",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/as%27%20or%20%271%27=%271",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"as%27%20or%20%271%27=%271"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/as",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/as",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"as"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/noSql/as%27%20or%20%271%27=%271",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/noSql/as%27%20or%20%271%27=%271",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"noSql",
+						"as%27%20or%20%271%27=%271"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/noSql/as",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/noSql/as",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"noSql",
+						"as"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

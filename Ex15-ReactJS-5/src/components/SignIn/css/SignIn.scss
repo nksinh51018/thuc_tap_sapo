@@ -1,0 +1,36 @@
+.body-wrap {
+    z-index: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .title-header {
+      padding: 40px 40px;
+      h3 {
+        font-size: 18px;
+      }
+      span {
+        color: #939393;
+      }
+      u {
+        color: #cca07b;
+      }
+    }
+    .form-signup{
+        padding: 3%;
+        .lable{
+            text-transform: uppercase;
+        }
+        .require{
+            color: red;
+        }
+        .check-box-signup{
+            padding-left: 3%;
+        }
+        .button-signup{
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            background-color: #cca07b;
+            margin-left: 1%;
+        }
+    }
+  }

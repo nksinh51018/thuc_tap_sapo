@@ -1,0 +1,21 @@
+#Database configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sapo
+    username: root
+    password: Akthangga1
+  jpa:
+    show-sql=true: true
+    properties:
+      hibernate:
+        format_sql=true: true
+myApplication:
+  recordNumber: 10
+  charNumber: 6
+security:
+  jwt:
+    uri: /auth/**
+    header: Authorization
+    prefix: Bearer
+    expiration: 24
+    secret: JwtSecretKey

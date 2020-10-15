@@ -1,0 +1,123 @@
+.section-6 {
+  position: relative;
+  height: 143px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+
+.section-6 .end {
+  z-index: -2;
+  position: absolute;
+  right: 6px;
+}
+
+.section-6 .text1 {
+  font-weight: bold;
+}
+
+.section-6 .text2 {
+  color: #00aeef;
+  padding-top: 1%;
+}
+
+.section-6 .text3 {
+  padding-top: 1%;
+}
+
+.body-wrap {
+  z-index: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body-wrap h1 {
+  text-align: center;
+}
+
+.breadcrumb-1 {
+  padding: 1%;
+}
+
+.breadcrumb-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb-1 a.active {
+  color: #b37a48;
+}
+
+.margin-top-body {
+  height: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    top: 106px;
+    width: 95% !important;
+  }
+}
+
+@media (min-width: 424px) and (max-width: 767px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: -3px;
+    top: 93px;
+    width: 98% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: 11px;
+    top: 58px;
+    width: 98% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: 11px;
+    top: 29px;
+    width: 99% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-6 .end {
+    z-index: -2;
+    position: absolute;
+    right: 3px;
+    top: -12px;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=CategoryList.css.map */

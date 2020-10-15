@@ -1,0 +1,152 @@
+.header {
+  background-image: url("/image/headerBackground.png");
+  width: 100%;
+  background-size: cover;
+  height: 121px;
+  align-items: center;
+ 
+  a {
+    color: black;
+  }
+  // .logo {
+  //   background-size: cover;
+  //   width: 130%;
+  //   margin-left: 10%;
+  // }
+  .cart-shopping {
+    background-size: cover;
+    width: 90%;
+  }
+}
+
+.hide {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header {
+    margin-left: -11px;
+    width: 1302px;
+    height: 112px;
+    display: block;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 21%;
+      }
+    }
+  }
+  #menu {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    height: 94px;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 10%;
+      }
+    }
+  }
+  #menu {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    height: 71px;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 10%;
+      }
+    }
+  }
+  #menu {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 424px) and (max-width: 767px) {
+  .header {
+    height: 100%;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+      padding-top: 2%;
+      height: 100%;
+      img {
+        width: 100%;
+        padding-left: 30px;
+      }
+    }
+  }
+  #menu {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .header {
+    height: 100%;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+      padding-top: 4%;
+      height: 100%;
+      img {
+        width: 100%;
+        padding-left: 30px;
+      }
+    }
+  }
+  #menu {
+    display: block;
+  }
+  .menu-mobile {
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 30px);
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    &.active {
+      display: block;
+    }
+    li {
+      display: block;
+      float: none;
+      list-style: none;
+      line-height: 28px;
+      position: relative;
+      width: 100%;
+      border-bottom: solid 1px #ebebeb;
+      background-color: white;
+      a {
+        display: inline-block;
+        font-size: 14px;
+        color: #333333;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+      }
+    }
+  }
+}

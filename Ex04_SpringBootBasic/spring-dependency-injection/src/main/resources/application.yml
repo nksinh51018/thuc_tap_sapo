@@ -1,0 +1,6 @@
+myApplication:
+  moneyAtm: 500000
+  fileName: log.txt
+spring:
+  profiles:
+    active: dev

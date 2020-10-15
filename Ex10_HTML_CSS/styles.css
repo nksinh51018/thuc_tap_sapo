@@ -1,0 +1,91 @@
+body {
+  background-image: url("../image/patternBackground.png");
+  height: 100%;
+  font-size: 14pt !important;
+}
+
+.topbar {
+  color: #351202;
+  font-weight: bold;
+}
+
+.topbar-right {
+  float: right;
+}
+.topbar-right a {
+  text-decoration: none;
+  color: #351202;
+}
+
+.topbar-right a:hover {
+  color: #351202;
+}
+
+.header {
+  background-image: url("../image/headerBackground.png");
+  width: 100%;
+  background-size: cover;
+  height: 121px;
+  align-items: center;
+  border-bottom: 2px dotted #e2b08a;
+  border-collapse: separate;
+  border-spacing: -10px;
+}
+
+.header a {
+  color: black;
+}
+
+.image {
+  background-size: cover;
+  width: 100%;
+}
+
+.body-wrap {
+  background-color: white;
+}
+
+.button-custom {
+  display: inline-block;
+  padding: 10px;
+}
+
+.button-custom:hover {
+  display: inline-block;
+  padding: 10px;
+}
+
+.active-button {
+  background-color: #d1a885;
+  color: white;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+.topnav div {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.topnav div:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+.topnav div.active {
+  background-color: #cea37f;
+  color: white;
+  font-size: 28;
+}
+
+.menu2 a {
+  color: black;
+}
+
+@media (min-width: 1200px) { 
+    
+}

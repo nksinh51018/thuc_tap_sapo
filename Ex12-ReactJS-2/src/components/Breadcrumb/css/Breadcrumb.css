@@ -1,0 +1,13 @@
+.breadcrumb-1 {
+  padding: 1%;
+}
+
+.breadcrumb-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb-1 a.active {
+  color: #b37a48;
+}
+/*# sourceMappingURL=Breadcrumb.css.map */

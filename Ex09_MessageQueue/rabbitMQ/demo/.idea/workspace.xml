@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="413b8105-66f3-4487-9ca8-deab35172475" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/config/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/listener/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/model/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Consumer/demo/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/Producer/src/main/java/com/example/demo/model/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/demo/src/main/java/com/example/demo/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/demo/src/main/java/com/example/demo/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/demo/src/main/java/com/example/demo/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kafka/demo/src/main/java/com/example/demo/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/ProducerAndConsumer/src/main/java/com/example/demo/RabbitMQConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/RabbitMQConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/RabbitMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/demo/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\NKSinh\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gFlSO0f2gCuFAPQ5NaO98hrpN0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="413b8105-66f3-4487-9ca8-deab35172475" name="Default Changelist" comment="" />
+      <created>1597718220405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597718220405</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597720546960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597720546960" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1597720257705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597720257705" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597722541275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597722541275" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597722409263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597722409263" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597722409263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597722409263" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597722409263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597722409263" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597722409263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597722409263" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1597719245211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597719245211" />
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597719244035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1597719244035" />
+  </component>
+</project>

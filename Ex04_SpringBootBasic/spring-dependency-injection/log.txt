@@ -1,0 +1,9 @@
+CustomerId: a, balance: 10000
+CustomerId: a, balance: 10000
+CustomerId: d, balance: 1000000
+Current ATM money is 499900
+CustomerId: a, balance: 1000
+Current ATM money is 499900
+CustomerId: a, balance: 100000000
+Current ATM money is 499900
+Current ATM money is 500000

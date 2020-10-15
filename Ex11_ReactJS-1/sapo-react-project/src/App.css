@@ -1,0 +1,13 @@
+body {
+  background-image: url("/image/patternBackground.png");
+  height: 100%;
+}
+body a:hover {
+  color: #cea37f;
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1300px !important;
+  }
+}

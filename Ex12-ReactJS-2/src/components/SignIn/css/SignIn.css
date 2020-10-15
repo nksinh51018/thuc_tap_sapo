@@ -1,0 +1,47 @@
+.body-wrap {
+  z-index: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body-wrap .title-header {
+  padding: 40px 40px;
+}
+
+.body-wrap .title-header h3 {
+  font-size: 18px;
+}
+
+.body-wrap .title-header span {
+  color: #939393;
+}
+
+.body-wrap .title-header u {
+  color: #cca07b;
+}
+
+.body-wrap .form-signup {
+  padding: 3%;
+}
+
+.body-wrap .form-signup .lable {
+  text-transform: uppercase;
+}
+
+.body-wrap .form-signup .require {
+  color: red;
+}
+
+.body-wrap .form-signup .check-box-signup {
+  padding-left: 3%;
+}
+
+.body-wrap .form-signup .button-signup {
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  background-color: #cca07b;
+  margin-left: 1%;
+}
+/*# sourceMappingURL=SignIn.css.map */

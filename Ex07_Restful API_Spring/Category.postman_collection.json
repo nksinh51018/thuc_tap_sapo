@@ -1,0 +1,617 @@
+{
+	"info": {
+		"_postman_id": "59df5c78-2683-48c7-a589-56f500253d32",
+		"name": "Category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/admin/categories?pageNumber=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/categories?pageNumber=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"test\",\r\n    \"categoryDescription\": \"test\",\r\n    \"productDTOs\": [\r\n            {\r\n                \"repositoryDTO\": {\r\n                    \"id\": 1,\r\n                    \"repositoryName\": \"Kho 1\",\r\n                    \"location\": \"Hà Nội\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"productName\": \"Iphone 12\",\r\n                \"productDescription\": \"Sản phẩm mới nhất của Apple\",\r\n                \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n                \"amount\": \"200\",\r\n                \"saleAmount\": \"500\",\r\n                \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\"\r\n            }\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories/14",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"test1\",\r\n    \"categoryDescription\": \"test1\",\r\n    \"productDTOs\": [\r\n            {\r\n                \"repositoryDTO\": {\r\n                    \"id\": 1,\r\n                    \"repositoryName\": \"Kho 1\",\r\n                    \"location\": \"Hà Nội\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"productName\": \"Iphone 12\",\r\n                \"productDescription\": \"Sản phẩm mới nhất của Apple\",\r\n                \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n                \"amount\": \"200\",\r\n                \"saleAmount\": \"500\",\r\n                \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\"\r\n            }\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories/14",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"test2\",\r\n    \"categoryDescription\": \"test2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories/sql/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"test2\",\r\n    \"categoryDescription\": \"test2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/sql/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"sql",
+						"3"
+					],
+					"query": [
+						{
+							"key": "afg",
+							"value": "87676",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/repositories?pageNumber=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/repositories?pageNumber=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"repositories"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"test\",\r\n    \"categoryDescription\": \"test\",\r\n    \"productDTOs\": [\r\n            {\r\n                \"repositoryDTO\": {\r\n                    \"id\": 1,\r\n                    \"repositoryName\": \"Kho 1\",\r\n                    \"location\": \"Hà Nội\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"productName\": \"Iphone 12\",\r\n                \"productDescription\": \"Sản phẩm mới nhất của Apple\",\r\n                \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n                \"amount\": \"200\",\r\n                \"saleAmount\": \"500\",\r\n                \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\"\r\n            }\r\n        ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/repositories/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"repositoryName\": \"Kho 3\",\r\n        \"location\": \"Hà Nội 3\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/repositories/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"repositories",
+						"1"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/repositories/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"repositoryName\": \"Kho 3\",\r\n        \"location\": \"Hà Nội 3\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/repositories/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"repositories",
+						"3"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/repositories/sql/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"repositoryName\": \"Kho 3\",\r\n        \"location\": \"Hà Nội 3\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/repositories/sql/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"repositories",
+						"sql",
+						"3"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products?pageNumber=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"repositoryName\": \"Kho 2\",\r\n        \"location\": \"Hà Nội 2\",\r\n        \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n        \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n        \"productDTOs\": [\r\n            {\r\n                \"categoryDTO\": {\r\n                    \"id\": 1,\r\n                    \"categoryName\": \"Apple\",\r\n                    \"categoryDescription\": \"Các sản phẩm Apple\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"repositoryDTO\": {\r\n                    \"repositoryName\": \"Kho 1\",\r\n                    \"location\": \"Hà Nội\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"productName\": \"Iphone 12\",\r\n                \"productDescription\": \"Sản phẩm mới nhất của Apple\",\r\n                \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n                \"amount\": \"200\",\r\n                \"saleAmount\": \"500\",\r\n                \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products?pageNumber=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"repositoryName\": \"Kho 2\",\r\n        \"location\": \"Hà Nội 2\",\r\n        \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n        \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n        \"productDTOs\": [\r\n            {\r\n                \"categoryDTO\": {\r\n                    \"id\": 1,\r\n                    \"categoryName\": \"Apple\",\r\n                    \"categoryDescription\": \"Các sản phẩm Apple\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"repositoryDTO\": {\r\n                    \"repositoryName\": \"Kho 1\",\r\n                    \"location\": \"Hà Nội\",\r\n                    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                    \"productDTOs\": null\r\n                },\r\n                \"productName\": \"Iphone 12\",\r\n                \"productDescription\": \"Sản phẩm mới nhất của Apple\",\r\n                \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n                \"amount\": \"200\",\r\n                \"saleAmount\": \"500\",\r\n                \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n                \"updatedAt\": \"2020-08-10T17:00:00.000+00:00\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"1"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"categoryDTO\": {\r\n        \"id\": 2\r\n        \r\n    },\r\n    \"repositoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"productName\": \"Iphone 123344\",\r\n    \"productDescription\": \"Sản phẩm mới nhất của Apple sdsafa\",\r\n    \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"1"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"categoryDTO\": {\r\n        \"id\": 2\r\n        \r\n    },\r\n    \"repositoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"productName\": \"Iphone 123344\",\r\n    \"productDescription\": \"Sản phẩm mới nhất của Apple sdsafa\",\r\n    \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"3"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products/sql/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"categoryDTO\": {\r\n        \"id\": 2\r\n        \r\n    },\r\n    \"repositoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"productName\": \"Iphone 123344\",\r\n    \"productDescription\": \"Sản phẩm mới nhất của Apple sdsafa\",\r\n    \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products/sql/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products",
+						"sql",
+						"3"
+					],
+					"query": [
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/categories/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/categories/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"categories",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/repositories/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"repositoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"productName\": \"Iphone 123344\",\r\n    \"productDescription\": \"Sản phẩm mới nhất của Apple sdsafa\",\r\n    \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n    \"amount\": 200,\r\n    \"saleAmount\": 500,\r\n    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n    \"updatedAt\": \"2020-08-12T14:15:01.000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/repositories/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"repositories",
+						"1"
+					],
+					"query": [
+						{
+							"key": "afg",
+							"value": "87676",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/admin/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"repositoryDTO\": {\r\n        \"id\": 2\r\n    },\r\n    \"productName\": \"Iphone 123344\",\r\n    \"productDescription\": \"Sản phẩm mới nhất của Apple sdsafa\",\r\n    \"imageUrl\": \"https://genk.mediacdn.vn/thumb_w/640/139269124445442048/2020/8/8/photo1596861783634-1596861783818613625814.jpeg\",\r\n    \"amount\": 200,\r\n    \"saleAmount\": 500,\r\n    \"createdAt\": \"2020-08-10T17:00:00.000+00:00\",\r\n    \"updatedAt\": \"2020-08-12T14:15:01.000+00:00\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

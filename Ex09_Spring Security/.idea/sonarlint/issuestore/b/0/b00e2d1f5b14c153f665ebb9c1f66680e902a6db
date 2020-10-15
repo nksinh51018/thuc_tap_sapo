@@ -1,0 +1,11 @@
+
+X
+java:S1128"=Remove this unused import 'com.sapo.edu.demo.entity.Product'.(ÌßÂ¿þÿÿÿÿ
+G
+java:S1602"",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ
+G
+java:S1602/",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ
+S
+java:S1128"=Remove this unused import 'com.sapo.edu.demo.dto.ProductDTO'.(äñÌ±
+f
+java:S1128	"KRemove this unused import 'com.sapo.edu.demo.repository.ProductRepository'.(èËìðÿÿÿÿÿ

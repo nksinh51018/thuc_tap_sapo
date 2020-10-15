@@ -1,0 +1,217 @@
+body {
+  background-image: url("../image/patternBackground.png");
+  height: 100%;
+}
+
+.topbar {
+  color: #351202;
+  font-weight: bold;
+  .topbar-right {
+    float: right;
+    font-weight: normal;
+    a {
+      text-decoration: none;
+      color: #351202;
+      &:hover {
+        color: #351202;
+      }
+    }
+  }
+}
+
+.header {
+  background-image: url("../image/headerBackground.png");
+  width: 100%;
+  background-size: cover;
+  height: 121px;
+  // border-bottom: 2px dotted #e2b08a;
+  // border-collapse: separate;
+  // border-spacing: -10px;
+  a {
+    color: black;
+  }
+  .header-top{
+    padding: 0 0;
+  }
+  // .logo {
+  //   background-size: cover;
+  //   width: 130%;
+  //   margin-left: 10%;
+  // }
+  .cart-shopping {
+    background-size: cover;
+    width: 90%;
+  }
+}
+
+.footer {
+  margin-top: 5%;
+  .text1 {
+    font-weight: bold;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+  }
+  .content {
+    color: #737373;
+  }
+  .section-1 {
+    margin: 10px 33px !important;
+    height: 10px;
+    background-image: linear-gradient(
+      to right,
+      rgb(172, 128, 46) 33%,
+      rgba(255, 255, 255, 0) 0%
+    );
+    background-position: bottom;
+    background-size: 20px 1px;
+    background-repeat: repeat-x;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .text-footer-1 {
+      padding: 5% 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+      align-items: center;
+      text-align: center;
+      div {
+        display: inline;
+        font-weight: bold;
+      }
+    }
+    .text-footer-2 {
+      padding: 40px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 30%;
+      align-items: center;
+      text-align: center;
+      div {
+        display: inline;
+        font-weight: bold;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1300px !important;
+  }
+  .header {
+    margin-left: -11px;
+    width: 1302px;
+    height: 112px;
+    display: block;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 21%;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)  and (max-width: 1199px) {
+  .header {
+    height: 94px;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    height: 71px;
+    .logo {
+      img {
+        background-size: cover;
+        width: 130%;
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 424px) and (max-width: 767px) {
+  .header {
+    height: 100%;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+      padding-top: 2%;
+      height: 100%;
+      img {
+        width: 100%;
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .header {
+    height: 100%;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+      padding-top: 4%;
+      height: 100%;
+      img {
+        width: 100%;
+        padding-left: 30px;
+      }
+    }
+  }
+  .menu-mobile {
+    display: none;
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 30px);
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    &.active {
+      display: block;
+    }
+    li {
+      display: block;
+      float: none;
+      list-style: none;
+      line-height: 28px;
+      position: relative;
+      width: 100%;
+      border-bottom: solid 1px #ebebeb;
+      background-color: white;
+      a {
+        display: inline-block;
+        font-size: 14px;
+        color: #333333;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+      }
+    }
+  }
+}

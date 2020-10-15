@@ -1,0 +1,85 @@
+.footer {
+  margin-top: 5%;
+}
+
+.footer .text1 {
+  font-weight: bold;
+  padding-bottom: 10%;
+  text-transform: uppercase;
+}
+
+.footer .content {
+  color: #737373;
+}
+
+.footer .section-1 {
+  margin: 10px 33px !important;
+  height: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(33%, #ac802e), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ac802e 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 20px 1px;
+  background-repeat: repeat-x;
+}
+
+.footer .section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .section-2 .text-footer-1 {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer .section-2 .text-footer-1 div {
+  display: inline;
+  font-weight: bold;
+}
+
+.footer .section-2 .text-footer-2 {
+  padding: 3% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer .section-2 .text-footer-2 div {
+  display: inline;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Footer.css.map */
